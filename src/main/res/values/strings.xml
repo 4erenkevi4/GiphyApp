@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GiphyApp</string>
+    <string name="search">search gif</string>
+    <string name="trends">Trends</string>
+    <string name="sear">Search</string>
+    <string name="textview">TextView</string>
+</resources>

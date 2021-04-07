@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigations_app"
+    app:startDestination="@id/app_bar_trend">
+
+    <fragment
+        android:id="@+id/app_bar_trend"
+        android:name="com.example.giphyapp.ui.TrendsFragment"
+        android:label="fragment_trend_gifs"
+        tools:layout="@layout/trend_fragment" />
+
+    <fragment
+        android:id="@+id/app_bar_search"
+        android:name="com.example.giphyapp.ui.SearchFragment"
+        android:label="fragment_search_gifs"
+        tools:layout="@layout/search_fragment" />
+
+
+</navigation>
